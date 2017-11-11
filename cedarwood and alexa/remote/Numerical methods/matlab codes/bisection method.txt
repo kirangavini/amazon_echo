@@ -1,0 +1,29 @@
+% Crated by mayclassbook.org auther: mayuresh
+% Created on 12 june 2013
+% Bisection method
+% Find the roots of x^3-x-1 using bisection method and plot the error
+f=@(x) x^3-x-1;
+a=1;
+b=2;
+for i=1:100
+  c=(a+b)/2;
+  if f(c)>0
+   b=c;
+  else a=c;
+  end
+ end
+ a=1; b=2; p=c;
+ for i=1:100
+  c=(a+b)/2;
+ er(i)=f(c)-f(p);
+ if f(c)>0
+ b=c;
+ else a=c;
+ end
+ end
+ fprintf('Root of given equation is %f',c)
+ plot(er);
+ title('Plot of error')
+ xlabel('Number of iterations')
+ ylabel('Error')
+ grid on;

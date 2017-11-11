@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "ChangeDifficultyIntent",
+      "slots": [
+        {
+          "name": "difficulty",
+          "type": "DIFFICULTY"
+        }
+      ]
+    },
+    {
+      "intent": "WordGuessIntent",
+      "slots": [
+        {
+          "name": "word",
+          "type": "WORDS"
+        }
+      ]
+    },
+    {
+      "intent": "WhoAmIIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

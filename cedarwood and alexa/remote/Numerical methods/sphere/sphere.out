@@ -1,0 +1,143 @@
+FEKO      Version 7.0-391 from 2014-05-05 (FEKO Suite 7.0)
+          PREFEKO Version 7.0-37 from 2014-05-02 [FEK: default 147; used 147] BINARY
+          CADFEKO version 7.0-238289 (x64) from 2014-05-05                                
+          Copyright (c) 1999-2014 EM Software & Systems-S.A. (Pty) Ltd
+          Intel(R) MKL version 11.0.5 (build 20130612) on Intel(R) Advanced Vector Extensions (Intel(R) AVX) Enabled Processor, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL -- KC-SCE464LAB-18
+          Microsoft Windows 7 Enterprise Edition Service Pack 1 (Build 7601), Version 6.1.7601 x64 (SP 1.0)
+          Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz; GenuineIntel family 6 model 10 stepping 7 brand id 0
+          1 physical CPU with a total of 4 processors found (multi-core CPU with max. 4 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2016-05-02 16:58:28                     
+File:     sphere
+Memory:   Limited to 1024.000 MByte, reason 34
+          (installed memory 7.958 GByte, thereof free 4.863 GByte)
+MD5 Check:0D402536E6ABA2B477080A6945E48137
+MD5 Total:2117B4F1D90665A7B4D7AD96025EDBA5
+Licence:  Floating licence no. 7222                            
+
+ Number of cores found on this CPU:  4
+ (that many parallel processes may be run with your sequential FEKO licence)
+ NOTE    35127: You are running a sequential version of FEKO, but it was detected that your CPU has more than one core. For best performance, it would be recommended to run the parallel FEKO kernel (your licence allows this)
+
+          Surface of all triangles in m*m:     1.00396E+02
+
+          Length of the segments in m:         2.00000E+00
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:            9764                                max. triangles:    MAXNDR    =     9764
+ Number of dielectric triangles:             0
+ Number of aperture triangles:               0
+ Number of GO triangles:                     0
+ Number of windscreen triangles:             0
+ Number of FEM surface triangles:            0
+ Number of modal port triangles:             0
+ Number of metallic segments:               15                                max. segments:     MAXNSEG   =       15
+ Number of combined MoM/MTL segments:        0
+ Number of dielectr./magnet. cuboids:        0                                max. cuboids:      MAXNQUA   =        0
+ Number of tetrahedra:                       0                                max. tetrahedra:   MAXNTETRA =        0
+ Number of edges in PO region:               0                                max. edges:        MAXPOKA   =        0
+ Number of wedges in PO region:              0                                max. wedges:       MAXPOKL   =        0
+ Number of Fock regions:                     0                                max. Fock regions: MAXFOGE   =        0
+ Number of polygonal surfaces:               0                                max. surfaces:     MAXPOLYF  =        0
+                                                                              max. corner pts.:  MAXPOLYP  =        0
+ Number of UTD cylinders:                    0
+
+ Number of metallic edges (MoM):         14646  unknown:    14646 (electr.)   max. edges:        MAXNKA    =    14646
+                                             0  unknown:        0 (magnet.)
+ Number of metallic edges (PO):              0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of dielectric edges (MoM):           0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of dielectric edges (PO):            0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of aperture edges (MoM):             0  unknown:        0 (magnet.) 
+ Number of edges FEM/MoM surface:            0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of nodes between segments:          14  unknown:       14             max. nodes:        MAXNKNO   =       33
+ Number of connection points:                0  unknown:        0             max. conn.:        MAXNV     =       15
+ Number of dielectric cuboids:               0  unknown:        0             max. cuboids:      MAXNQUA   =        0
+ Number of magnetic cuboids:                 0  unknown:        0
+ Number of dielectric faces (VEP):           0  unknown:        0
+ Number of magnetic faces (VEP):             0  unknown:        0
+
+ Number of basis funct. for MoM:         14660  unknown:    14660             max. basisf.       MAXNZEILE =    14694
+ Number of basis funct. for PO:              0  unknown:        0             max. basisf.       MAXNKAPO  =        0
+
+ read from input file:
+PS       0    0    3    1    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+CG      -1    0   -1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00-1.000E+00-1.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DI       0    0   -1    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 1.000E+03 0.000E+00 0.000E+00
+ read from input file:
+PW       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+A1       0    2    0    0    0 2.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 5.000E+01 0.000E+00 0.000E+00
+ read from input file:
+FR       4    0    0    0    0 3.747E+07 0.000E+00 7.495E+07 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+NC       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+OF       1    0    0    0    0 2.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+FE       3    2   20   20    2 0.000E+00 0.000E+00-9.000E+01 2.000E+00 9.474E+00-9.474E+00 0.000E+00 0.000E+00
+ 
+ 
+      ==============
+      CONFIGURATION: StandardConfiguration1
+      ==============
+
+
+                              DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   8.00000E+00   1.00000E+03    infinite    0
+
+
+
+                    EXCITATION BY VOLTAGE SOURCE AT SEGMENT
+
+ Name:                        VoltageSource1
+ Excitation index:            N = 1
+ Frequency in Hz:             FREQ =    3.74741E+07
+ Wavelength in m:             LAMBDA =  8.00000E+00
+ Open circuit voltage in V:   |U0| =    2.00000E+00
+ Phase in deg.:               ARG(U0) =        0.00
+ Source at segment label:     ULA = dipole.Wire1.Port1
+ Absolute number of segment:  UNR = 8
+ Location of the excit. in m: X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  0.00000E+00
+ Positive feed direction:     X =  0.00000E+00
+                              Y =  0.00000E+00
+                              Z =  1.00000E+00
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
+
+               All segments and triangles are perfectly conducting
+
+
+                          DATA FOR STORAGE OF THE MATRIX
+
+ Storage using single precision
+
+ Memory requirement for MoM matrix:     14672 rows *    14660 columns =   215091520 complex numbers
+ For the MoM matrix, a memory of      2140360 complex numbers is used (i.e. 16.330 MByte)
+ This version of FEKO is restricted regarding the allocatable
+ memory. Therefore it is not supported to write the matrix
+ to a file.
+ ERROR    1036: Not enough memory available for the matrix
+
+Aborted: 2016-05-02 16:58:28                     

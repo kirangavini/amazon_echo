@@ -1,0 +1,104 @@
+GetMuniTimesIntent when the {Type} is coming
+GetMuniTimesIntent when the {Line} {Type} is coming
+GetMuniTimesIntent when the {Line} is coming
+GetMuniTimesIntent when the {Direction} {Line} {Type} is coming
+GetMuniTimesIntent when the {Direction} {Line} is coming
+GetMuniTimesIntent when the {Line} {Direction} {Type} is coming
+GetMuniTimesIntent when the {Line} {Direction} is coming
+
+GetMuniTimesIntent when the next {Type} is coming
+GetMuniTimesIntent when the next {Line} {Type} is coming
+GetMuniTimesIntent when the next {Line} is coming
+GetMuniTimesIntent when the next {Direction} {Line} {Type} is coming
+GetMuniTimesIntent when the next {Direction} {Line} is coming
+GetMuniTimesIntent when the next {Line} {Direction} {Type} is coming
+GetMuniTimesIntent when the next {Line} {Direction} is coming
+
+GetMuniTimesIntent when is the {Type} is coming
+GetMuniTimesIntent when is the {Line} {Type} is coming
+GetMuniTimesIntent when is the {Line} is coming
+GetMuniTimesIntent when is the {Direction} {Line} {Type} is coming
+GetMuniTimesIntent when is the {Direction} {Line} is coming
+GetMuniTimesIntent when is the {Line} {Direction} {Type} is coming
+GetMuniTimesIntent when is the {Line} {Direction} is coming
+
+GetMuniTimesIntent when is the next {Type} is coming
+GetMuniTimesIntent when is the next {Line} {Type} is coming
+GetMuniTimesIntent when is the next {Line} is coming
+GetMuniTimesIntent when is the next {Direction} {Line} {Type} is coming
+GetMuniTimesIntent when is the next {Direction} {Line} is coming
+GetMuniTimesIntent when is the next {Line} {Direction} {Type} is coming
+GetMuniTimesIntent when is the next {Line} {Direction} is coming
+
+GetMuniTimesIntent when the next {Type} are coming
+GetMuniTimesIntent when the next {Line} {Type} are coming
+GetMuniTimesIntent when the next {Line} are coming
+GetMuniTimesIntent when the next {Direction} {Line} {Type} are coming
+GetMuniTimesIntent when the next {Direction} {Line} are coming
+GetMuniTimesIntent when the next {Line} {Direction} {Type} are coming
+GetMuniTimesIntent when the next {Line} {Direction} are coming
+
+GetMuniTimesIntent when are the next {Type} coming
+GetMuniTimesIntent when are the next {Line} {Type} coming
+GetMuniTimesIntent when are the next {Line} coming
+GetMuniTimesIntent when are the next {Direction} {Line} {Type} coming
+GetMuniTimesIntent when are the next {Direction} {Line} coming
+GetMuniTimesIntent when are the next {Line} {Direction} {Type} coming
+GetMuniTimesIntent when are the next {Line} {Direction} coming
+
+GetMuniTimesIntent for the next {Type}
+GetMuniTimesIntent for the next {Line} {Type}
+GetMuniTimesIntent for the next {Line}
+GetMuniTimesIntent for the next {Direction} {Line} {Type}
+GetMuniTimesIntent for the next {Direction} {Line}
+GetMuniTimesIntent for the next {Line} {Direction} {Type}
+GetMuniTimesIntent for the next {Line} {Direction}
+
+GetMuniTimesIntent for next {Type}
+GetMuniTimesIntent for next {Line} {Type}
+GetMuniTimesIntent for next {Line}
+GetMuniTimesIntent for next {Direction} {Line} {Type}
+GetMuniTimesIntent for next {Direction} {Line}
+GetMuniTimesIntent for next {Line} {Direction} {Type}
+GetMuniTimesIntent for next {Line} {Direction}
+
+GetMuniTimesIntent next {Type}
+GetMuniTimesIntent next {Line} {Type}
+GetMuniTimesIntent next {Line}
+GetMuniTimesIntent next {Direction} {Line} {Type}
+GetMuniTimesIntent next {Direction} {Line}
+GetMuniTimesIntent next {Line} {Direction} {Type}
+GetMuniTimesIntent next {Line} {Direction}
+
+GetMuniMessageIntent if there is a problem with the {Line} {Type}
+GetMuniMessageIntent if there is a problem with the {Line}
+GetMuniMessageIntent if there is a message for the {Line} {Type}
+GetMuniMessageIntent if there is a message for the {Line}
+GetMuniMessageIntent if there is a problem on the {Line} {Type}
+GetMuniMessageIntent if there is a problem on the {Line}
+GetMuniMessageIntent if there is a problem
+GetMuniMessageIntent if there is a service message
+
+GetMuniMessageIntent is a problem with the {Line} {Type}
+GetMuniMessageIntent is a problem with the {Line}
+GetMuniMessageIntent is a message for the {Line} {Type}
+GetMuniMessageIntent is a message for the {Line}
+GetMuniMessageIntent is a problem on the {Line} {Type}
+GetMuniMessageIntent is a problem on the {Line}
+GetMuniMessageIntent is a problem
+GetMuniMessageIntent is a service message
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what can I do
+HelpIntent what can I use this for
+HelpIntent what questions can I ask
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me

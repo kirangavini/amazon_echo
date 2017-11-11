@@ -1,0 +1,14 @@
+{
+  "name": "backwards",
+  "version": "1.0.0",
+  "description": "Another sample Alexa app",
+  "main": "index.js",
+  "author": "Nigel Gibbs <nigel@gibsoft.com> (http://gibbsoft.com/)",
+  "license": "MIT",
+  "alexa": {
+    "applicationId": "amzn1.echo-sdk-ams.app.999999-d0ed-9999-ad00-999999d00ebe"
+  },
+  "dependencies": {
+    "alexa-app": "^2.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+
+<ion-view title="Signup" id="page5" style="background-color:#FBE9E7">
+  <ion-content padding="true" class="has-header" ng-controller="signupCtrl" >
+    <div class="spacer" style="width: 300px; height: 41px;"></div>
+    <form id="signup-form2" class="list">
+      <ion-list id="signup-list3">
+        <label class="item item-input" id="signup-input3">
+          <input type="text" placeholder="ID" ng-model="id">
+        </label>
+        <label class="item item-input" id="signup-input4">
+          <input type="text" placeholder="Username" ng-model="uname">
+        </label>
+        <label class="item item-input" id="signup-input5">
+          <input type="password" placeholder="Password" ng-model="pass">
+        </label>
+        <label class="item item-input" id="signup-input6">
+          <input type="text" placeholder="Phone" ng-model="phone">
+        </label>
+      </ion-list>
+      <button id="signup-button3" ng-disabled="isDisabled" ng-click="signup()" class="button button-positive  button-block">Sign up</button>
+    </form>
+  </ion-content>
+</ion-view>

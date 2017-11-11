@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "HowToPlay"
+    },
+    {
+      "intent": "WordScoring"
+    },
+    {
+      "intent": "BeginGame"
+    },
+    {
+      "intent": "SubmitWord",
+      "slots": [
+        {
+          "name": "Word",
+          "type": "WORDS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

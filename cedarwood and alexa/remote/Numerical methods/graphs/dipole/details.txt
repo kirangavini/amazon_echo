@@ -1,0 +1,9 @@
+Here the values of 0 and 90 are taken in post feko phicut format. A little diviation in lobes is noticed as the values
+of phi are changed continously. In cad feko the value of H should be adjusted as follows;
+
+1) lambda/2    take h=lambda/2         Z=-h/2 to h/2  
+2) lambda      take h=lambda/2         Z= -h to h
+3) 2lambda     take h=lambda           Z=-h to h       Here extra lobes are observed.
+
+When h=lambda by 2 the radiation pattern is bulged more near the center and is not omni directional as much as
+lambda and 2lambda.

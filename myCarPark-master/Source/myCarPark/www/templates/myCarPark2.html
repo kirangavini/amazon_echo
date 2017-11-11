@@ -1,0 +1,21 @@
+
+<ion-view title="myCarPark" hide-back-button="true" id="page4" style="background-color:#FBE9E7">
+  <ion-content padding="true" class="has-header" ng-controller="logincontrol">
+    <div class="spacer" style="width: 300px; height: 51px;"></div>
+    <form id="myCarPark2-form1" class="list">
+      <ion-list id="myCarPark2-list2">
+        <label class="item item-input" id="myCarPark2-input1">
+          <!--<span class="input-label">Username</span>-->
+          <input type="text" placeholder="Username" ng-model="uname">
+        </label>
+        <label class="item item-input" id="myCarPark2-input2">
+          <!--<span class="input-label">Password</span>-->
+          <input type="password" placeholder="Password" ng-model="pass">
+        </label>
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <a id="myCarPark2-button1" class="button button-assertive  button-block" ng-click="logincheck()">Log in</a>
+      <a ui-sref="signup" id="myCarPark2-button4" class="button button-positive  button-block">or Create Account</a>
+    </form>
+  </ion-content>
+</ion-view>

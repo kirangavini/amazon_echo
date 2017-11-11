@@ -1,0 +1,45 @@
+/* Empty. Add your own CSS if you like */
+.textcenter{
+	width:100%;
+	text-align:center;
+}
+.row{
+	margin:0px;
+	border: 0px;
+}
+.zeropadding{
+	padding-left:0px;
+	padding-right:0px;	
+}
+.borderEdge{
+	border-style: solid;
+	border-width: 2px;
+}
+.slotRow{
+	height:100px;
+	background-color: #F5F5F5;
+}
+.slot{
+	height:100%;	
+}
+.gray{
+	background-color: #C0C0C0;
+}
+.typeCar{
+	background-color: #f2f2f2;
+	width:75%;
+}
+table{
+	width:100%;
+}
+.bar.bar-stable{
+    background-color: #FF5722;
+    color:white;
+}
+table,tr,td{
+    border:2px solid #ff5722;
+}
+.table-bordered{
+   border:2px solid #ff5722; 
+}
+

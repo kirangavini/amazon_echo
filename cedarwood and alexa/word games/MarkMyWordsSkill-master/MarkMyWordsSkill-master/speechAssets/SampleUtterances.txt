@@ -1,0 +1,20 @@
+BeginGame begin
+BeginGame begin game
+BeginGame begin a game
+BeginGame begin the game
+BeginGame start
+BeginGame start game
+BeginGame start a game
+BeginGame start the game
+BeginGame start a new game
+BeginGame start over
+BeginGame new game
+HowToPlay how to play
+HowToPlay rules
+WordScoring word scoring
+WordScoring word scores
+WordScoring letter scores
+WordScoring scoring
+WordScoring scoring rules
+WordScoring what are the scoring rules
+SubmitWord {Word}

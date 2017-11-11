@@ -1,0 +1,421 @@
+NewExcerciseIntent {Count} {Exercise}
+NewExcerciseIntent {Count} {Exercise} with {Weight} {WeightUnit}
+NewExcerciseIntent {Count} {Exercise} with {Weight} point {WeightDecimal} {WeightUnit}
+NewExcerciseIntent {Count} {Exercise} with {Weight} and {WeightFraction} {WeightUnit}
+NewExcerciseIntent store {Count} {Exercise}
+NewExcerciseIntent store {Count} {Exercise} with {Weight} {WeightUnit}
+NewExcerciseIntent store {Count} {Exercise} with {Weight} point {WeightDecimal} {WeightUnit}
+NewExcerciseIntent store {Count} {Exercise} with {Weight} and {WeightFraction} {WeightUnit}
+NewExcerciseIntent add {Count} {Exercise}
+NewExcerciseIntent add {Count} {Exercise} with {Weight} {WeightUnit}
+NewExcerciseIntent add {Count} {Exercise} with {Weight} point {WeightDecimal} {WeightUnit}
+NewExcerciseIntent add {Count} {Exercise} with {Weight} and {WeightFraction} {WeightUnit}
+NewExcerciseIntent {Count} {Exercise} with {Weight}
+NewExcerciseIntent {Count} {Exercise} with {Weight} point {WeightDecimal}
+NewExcerciseIntent {Count} {Exercise} with {Weight} and {WeightFraction}
+NewExcerciseIntent store {Count} {Exercise} with {Weight}
+NewExcerciseIntent store {Count} {Exercise} with {Weight} point {WeightDecimal}
+NewExcerciseIntent store {Count} {Exercise} with {Weight} and {WeightFraction}
+NewExcerciseIntent add {Count} {Exercise} with {Weight}
+NewExcerciseIntent add {Count} {Exercise} with {Weight} point {WeightDecimal}
+NewExcerciseIntent add {Count} {Exercise} with {Weight} and {WeightFraction}
+
+CorrectionIntent {Correction}
+CorrectionIntent {Correction} please
+CorrectionIntent please {Correction}
+
+PersonalBestIntent what is my personal best for {Exercise}
+PersonalBestIntent tell me my personal best for {Exercise}
+PersonalBestIntent give me my personal best for {Exercise}
+PersonalBestIntent tell me my best for {Exercise}
+PersonalBestIntent give me my best for {Exercise}
+PersonalBestIntent tell my personal best for {Exercise}
+PersonalBestIntent give my personal best for {Exercise}
+PersonalBestIntent tell my best for {Exercise}
+PersonalBestIntent give my best for {Exercise}
+PersonalBestIntent get me my best for {Exercise}
+PersonalBestIntent get my best for {Exercise}
+PersonalBestIntent find me my best for {Exercise}
+PersonalBestIntent find my best for {Exercise}
+PersonalBestIntent my personal best for {Exercise}
+PersonalBestIntent what's my best for {Exercise}
+PersonalBestIntent get me my best for {Exercise}
+PersonalBestIntent my best for {Exercise}
+PersonalBestIntent my best {Exercise}
+
+GetExerciseOnDayIntent how many {Exercise} on {Day}
+GetExerciseOnDayIntent what's my count of {Exercise} on {Day}
+GetExerciseOnDayIntent what's my number of {Exercise} on {Day}
+GetExerciseOnDayIntent what's the number of {Exercise} on {Day}
+GetExerciseOnDayIntent what's the count of {Exercise} on {Day}
+GetExerciseOnDayIntent what is my count of {Exercise} on {Day}
+GetExerciseOnDayIntent what is my number of {Exercise} on {Day}
+GetExerciseOnDayIntent what is the number of {Exercise} on {Day}
+GetExerciseOnDayIntent what is the count of {Exercise} on {Day}
+GetExerciseOnDayIntent how many {Exercise} {Day}
+GetExerciseOnDayIntent what's my count of {Exercise} {Day}
+GetExerciseOnDayIntent what's my number of {Exercise} {Day}
+GetExerciseOnDayIntent what's the number of {Exercise} {Day}
+GetExerciseOnDayIntent what's the count of {Exercise} {Day}
+GetExerciseOnDayIntent what is my count of {Exercise} {Day}
+GetExerciseOnDayIntent what is my number of {Exercise} {Day}
+GetExerciseOnDayIntent what is the number of {Exercise} {Day}
+GetExerciseOnDayIntent what is the count of {Exercise} {Day}
+GetExerciseOnDayIntent how many {Exercise} for {Day}
+GetExerciseOnDayIntent what's my count of {Exercise} for {Day}
+GetExerciseOnDayIntent what's my number of {Exercise} for {Day}
+GetExerciseOnDayIntent what's the number of {Exercise} for {Day}
+GetExerciseOnDayIntent what's the count of {Exercise} for {Day}
+GetExerciseOnDayIntent what is my count of {Exercise} for {Day}
+GetExerciseOnDayIntent what is my number of {Exercise} for {Day}
+GetExerciseOnDayIntent what is the number of {Exercise} for {Day}
+GetExerciseOnDayIntent what is the count of {Exercise} for {Day}
+GetExerciseOnDayIntent get {Exercise} on {Day}
+GetExerciseOnDayIntent get my {Exercise} on {Day}
+GetExerciseOnDayIntent get me {Exercise} on {Day}
+GetExerciseOnDayIntent get me my {Exercise} on {Day}
+GetExerciseOnDayIntent get {Exercise} count on {Day}
+GetExerciseOnDayIntent get my {Exercise} count on {Day}
+GetExerciseOnDayIntent get me {Exercise} count on {Day}
+GetExerciseOnDayIntent get me my {Exercise} count on {Day}
+GetExerciseOnDayIntent get number of {Exercise} on {Day}
+GetExerciseOnDayIntent get my number of {Exercise} on {Day}
+GetExerciseOnDayIntent get me number of {Exercise} on {Day}
+GetExerciseOnDayIntent get me my number of {Exercise} on {Day}
+GetExerciseOnDayIntent get count of {Exercise} on {Day}
+GetExerciseOnDayIntent get my count of {Exercise} on {Day}
+GetExerciseOnDayIntent get me count of {Exercise} on {Day}
+GetExerciseOnDayIntent get me my count of {Exercise} on {Day}
+GetExerciseOnDayIntent get {Exercise} {Day}
+GetExerciseOnDayIntent get my {Exercise} {Day}
+GetExerciseOnDayIntent get me {Exercise} {Day}
+GetExerciseOnDayIntent get me my {Exercise} {Day}
+GetExerciseOnDayIntent get {Exercise} count {Day}
+GetExerciseOnDayIntent get my {Exercise} count {Day}
+GetExerciseOnDayIntent get me {Exercise} count {Day}
+GetExerciseOnDayIntent get me my {Exercise} count {Day}
+GetExerciseOnDayIntent get number of {Exercise} {Day}
+GetExerciseOnDayIntent get my number of {Exercise} {Day}
+GetExerciseOnDayIntent get me number of {Exercise} {Day}
+GetExerciseOnDayIntent get me my number of {Exercise} {Day}
+GetExerciseOnDayIntent get count of {Exercise} {Day}
+GetExerciseOnDayIntent get my count of {Exercise} {Day}
+GetExerciseOnDayIntent get me count of {Exercise} {Day}
+GetExerciseOnDayIntent get me my count of {Exercise} {Day}
+GetExerciseOnDayIntent get {Exercise} for {Day}
+GetExerciseOnDayIntent get my {Exercise} for {Day}
+GetExerciseOnDayIntent get me {Exercise} for {Day}
+GetExerciseOnDayIntent get me my {Exercise} for {Day}
+GetExerciseOnDayIntent get {Exercise} count for {Day}
+GetExerciseOnDayIntent get my {Exercise} count for {Day}
+GetExerciseOnDayIntent get me {Exercise} count for {Day}
+GetExerciseOnDayIntent get me my {Exercise} count for {Day}
+GetExerciseOnDayIntent get number of {Exercise} for {Day}
+GetExerciseOnDayIntent get my number of {Exercise} for {Day}
+GetExerciseOnDayIntent get me number of {Exercise} for {Day}
+GetExerciseOnDayIntent get me my number of {Exercise} for {Day}
+GetExerciseOnDayIntent get count of {Exercise} for {Day}
+GetExerciseOnDayIntent get my count of {Exercise} for {Day}
+GetExerciseOnDayIntent get me count of {Exercise} for {Day}
+GetExerciseOnDayIntent get me my count of {Exercise} for {Day}
+GetExerciseOnDayIntent find {Exercise} on {Day}
+GetExerciseOnDayIntent find my {Exercise} on {Day}
+GetExerciseOnDayIntent find me {Exercise} on {Day}
+GetExerciseOnDayIntent find me my {Exercise} on {Day}
+GetExerciseOnDayIntent find {Exercise} count on {Day}
+GetExerciseOnDayIntent find my {Exercise} count on {Day}
+GetExerciseOnDayIntent find me {Exercise} count on {Day}
+GetExerciseOnDayIntent find me my {Exercise} count on {Day}
+GetExerciseOnDayIntent find number of {Exercise} on {Day}
+GetExerciseOnDayIntent find my number of {Exercise} on {Day}
+GetExerciseOnDayIntent find me number of {Exercise} on {Day}
+GetExerciseOnDayIntent find me my number of {Exercise} on {Day}
+GetExerciseOnDayIntent find count of {Exercise} on {Day}
+GetExerciseOnDayIntent find my count of {Exercise} on {Day}
+GetExerciseOnDayIntent find me count of {Exercise} on {Day}
+GetExerciseOnDayIntent find me my count of {Exercise} on {Day}
+GetExerciseOnDayIntent find {Exercise} {Day}
+GetExerciseOnDayIntent find my {Exercise} {Day}
+GetExerciseOnDayIntent find me {Exercise} {Day}
+GetExerciseOnDayIntent find me my {Exercise} {Day}
+GetExerciseOnDayIntent find {Exercise} count {Day}
+GetExerciseOnDayIntent find my {Exercise} count {Day}
+GetExerciseOnDayIntent find me {Exercise} count {Day}
+GetExerciseOnDayIntent find me my {Exercise} count {Day}
+GetExerciseOnDayIntent find number of {Exercise} {Day}
+GetExerciseOnDayIntent find my number of {Exercise} {Day}
+GetExerciseOnDayIntent find me number of {Exercise} {Day}
+GetExerciseOnDayIntent find me my number of {Exercise} {Day}
+GetExerciseOnDayIntent find count of {Exercise} {Day}
+GetExerciseOnDayIntent find my count of {Exercise} {Day}
+GetExerciseOnDayIntent find me count of {Exercise} {Day}
+GetExerciseOnDayIntent find me my count of {Exercise} {Day}
+GetExerciseOnDayIntent find {Exercise} for {Day}
+GetExerciseOnDayIntent find my {Exercise} for {Day}
+GetExerciseOnDayIntent find me {Exercise} for {Day}
+GetExerciseOnDayIntent find me my {Exercise} for {Day}
+GetExerciseOnDayIntent find {Exercise} count for {Day}
+GetExerciseOnDayIntent find my {Exercise} count for {Day}
+GetExerciseOnDayIntent find me {Exercise} count for {Day}
+GetExerciseOnDayIntent find me my {Exercise} count for {Day}
+GetExerciseOnDayIntent find number of {Exercise} for {Day}
+GetExerciseOnDayIntent find my number of {Exercise} for {Day}
+GetExerciseOnDayIntent find me number of {Exercise} for {Day}
+GetExerciseOnDayIntent find me my number of {Exercise} for {Day}
+GetExerciseOnDayIntent find count of {Exercise} for {Day}
+GetExerciseOnDayIntent find my count of {Exercise} for {Day}
+GetExerciseOnDayIntent find me count of {Exercise} for {Day}
+GetExerciseOnDayIntent find me my count of {Exercise} for {Day}
+GetExerciseOnDayIntent give {Exercise} on {Day}
+GetExerciseOnDayIntent give my {Exercise} on {Day}
+GetExerciseOnDayIntent give me {Exercise} on {Day}
+GetExerciseOnDayIntent give me my {Exercise} on {Day}
+GetExerciseOnDayIntent give {Exercise} count on {Day}
+GetExerciseOnDayIntent give my {Exercise} count on {Day}
+GetExerciseOnDayIntent give me {Exercise} count on {Day}
+GetExerciseOnDayIntent give me my {Exercise} count on {Day}
+GetExerciseOnDayIntent give number of {Exercise} on {Day}
+GetExerciseOnDayIntent give my number of {Exercise} on {Day}
+GetExerciseOnDayIntent give me number of {Exercise} on {Day}
+GetExerciseOnDayIntent give me my number of {Exercise} on {Day}
+GetExerciseOnDayIntent give count of {Exercise} on {Day}
+GetExerciseOnDayIntent give my count of {Exercise} on {Day}
+GetExerciseOnDayIntent give me count of {Exercise} on {Day}
+GetExerciseOnDayIntent give me my count of {Exercise} on {Day}
+GetExerciseOnDayIntent give {Exercise} {Day}
+GetExerciseOnDayIntent give my {Exercise} {Day}
+GetExerciseOnDayIntent give me {Exercise} {Day}
+GetExerciseOnDayIntent give me my {Exercise} {Day}
+GetExerciseOnDayIntent give {Exercise} count {Day}
+GetExerciseOnDayIntent give my {Exercise} count {Day}
+GetExerciseOnDayIntent give me {Exercise} count {Day}
+GetExerciseOnDayIntent give me my {Exercise} count {Day}
+GetExerciseOnDayIntent give number of {Exercise} {Day}
+GetExerciseOnDayIntent give my number of {Exercise} {Day}
+GetExerciseOnDayIntent give me number of {Exercise} {Day}
+GetExerciseOnDayIntent give me my number of {Exercise} {Day}
+GetExerciseOnDayIntent give count of {Exercise} {Day}
+GetExerciseOnDayIntent give my count of {Exercise} {Day}
+GetExerciseOnDayIntent give me count of {Exercise} {Day}
+GetExerciseOnDayIntent give me my count of {Exercise} {Day}
+GetExerciseOnDayIntent give {Exercise} for {Day}
+GetExerciseOnDayIntent give my {Exercise} for {Day}
+GetExerciseOnDayIntent give me {Exercise} for {Day}
+GetExerciseOnDayIntent give me my {Exercise} for {Day}
+GetExerciseOnDayIntent give {Exercise} count for {Day}
+GetExerciseOnDayIntent give my {Exercise} count for {Day}
+GetExerciseOnDayIntent give me {Exercise} count for {Day}
+GetExerciseOnDayIntent give me my {Exercise} count for {Day}
+GetExerciseOnDayIntent give number of {Exercise} for {Day}
+GetExerciseOnDayIntent give my number of {Exercise} for {Day}
+GetExerciseOnDayIntent give me number of {Exercise} for {Day}
+GetExerciseOnDayIntent give me my number of {Exercise} for {Day}
+GetExerciseOnDayIntent give count of {Exercise} for {Day}
+GetExerciseOnDayIntent give my count of {Exercise} for {Day}
+GetExerciseOnDayIntent give me count of {Exercise} for {Day}
+GetExerciseOnDayIntent give me my count of {Exercise} for {Day}
+GetExerciseOnDayIntent tell {Exercise} on {Day}
+GetExerciseOnDayIntent tell my {Exercise} on {Day}
+GetExerciseOnDayIntent tell me {Exercise} on {Day}
+GetExerciseOnDayIntent tell me my {Exercise} on {Day}
+GetExerciseOnDayIntent tell {Exercise} count on {Day}
+GetExerciseOnDayIntent tell my {Exercise} count on {Day}
+GetExerciseOnDayIntent tell me {Exercise} count on {Day}
+GetExerciseOnDayIntent tell me my {Exercise} count on {Day}
+GetExerciseOnDayIntent tell number of {Exercise} on {Day}
+GetExerciseOnDayIntent tell my number of {Exercise} on {Day}
+GetExerciseOnDayIntent tell me number of {Exercise} on {Day}
+GetExerciseOnDayIntent tell me my number of {Exercise} on {Day}
+GetExerciseOnDayIntent tell count of {Exercise} on {Day}
+GetExerciseOnDayIntent tell my count of {Exercise} on {Day}
+GetExerciseOnDayIntent tell me count of {Exercise} on {Day}
+GetExerciseOnDayIntent tell me my count of {Exercise} on {Day}
+GetExerciseOnDayIntent tell {Exercise} {Day}
+GetExerciseOnDayIntent tell my {Exercise} {Day}
+GetExerciseOnDayIntent tell me {Exercise} {Day}
+GetExerciseOnDayIntent tell me my {Exercise} {Day}
+GetExerciseOnDayIntent tell {Exercise} count {Day}
+GetExerciseOnDayIntent tell my {Exercise} count {Day}
+GetExerciseOnDayIntent tell me {Exercise} count {Day}
+GetExerciseOnDayIntent tell me my {Exercise} count {Day}
+GetExerciseOnDayIntent tell number of {Exercise} {Day}
+GetExerciseOnDayIntent tell my number of {Exercise} {Day}
+GetExerciseOnDayIntent tell me number of {Exercise} {Day}
+GetExerciseOnDayIntent tell me my number of {Exercise} {Day}
+GetExerciseOnDayIntent tell count of {Exercise} {Day}
+GetExerciseOnDayIntent tell my count of {Exercise} {Day}
+GetExerciseOnDayIntent tell me count of {Exercise} {Day}
+GetExerciseOnDayIntent tell me my count of {Exercise} {Day}
+GetExerciseOnDayIntent tell {Exercise} for {Day}
+GetExerciseOnDayIntent tell my {Exercise} for {Day}
+GetExerciseOnDayIntent tell me {Exercise} for {Day}
+GetExerciseOnDayIntent tell me my {Exercise} for {Day}
+GetExerciseOnDayIntent tell {Exercise} count for {Day}
+GetExerciseOnDayIntent tell my {Exercise} count for {Day}
+GetExerciseOnDayIntent tell me {Exercise} count for {Day}
+GetExerciseOnDayIntent tell me my {Exercise} count for {Day}
+GetExerciseOnDayIntent tell number of {Exercise} for {Day}
+GetExerciseOnDayIntent tell my number of {Exercise} for {Day}
+GetExerciseOnDayIntent tell me number of {Exercise} for {Day}
+GetExerciseOnDayIntent tell me my number of {Exercise} for {Day}
+GetExerciseOnDayIntent tell count of {Exercise} for {Day}
+GetExerciseOnDayIntent tell my count of {Exercise} for {Day}
+GetExerciseOnDayIntent tell me count of {Exercise} for {Day}
+GetExerciseOnDayIntent tell me my count of {Exercise} for {Day}
+
+GetAllExercisesIntent all {Workout}
+GetAllExercisesIntent {Workout} list
+GetAllExercisesIntent supported {Workout}
+GetAllExercisesIntent what are support {Workout}
+GetAllExercisesIntent what {Workout} are supported
+GetAllExercisesIntent valid {Workout}
+GetAllExercisesIntent get me {Workout}
+GetAllExercisesIntent get all {Workout}
+GetAllExercisesIntent get me a list of all {Workout}
+GetAllExercisesIntent get me a all {Workout}
+GetAllExercisesIntent get me a list of all {Workout}
+GetAllExercisesIntent get me {Workout} list
+GetAllExercisesIntent get me supported {Workout}
+GetAllExercisesIntent give me {Workout}
+GetAllExercisesIntent give all {Workout}
+GetAllExercisesIntent give me a list of all {Workout}
+GetAllExercisesIntent give me a all {Workout}
+GetAllExercisesIntent give me a list of all {Workout}
+GetAllExercisesIntent give me {Workout} list
+GetAllExercisesIntent give me supported {Workout}
+GetAllExercisesIntent tell me {Workout}
+GetAllExercisesIntent tell all {Workout}
+GetAllExercisesIntent tell me a list of all {Workout}
+GetAllExercisesIntent tell me a all {Workout}
+GetAllExercisesIntent tell me a list of all {Workout}
+GetAllExercisesIntent tell me {Workout} list
+GetAllExercisesIntent tell me supported {Workout}
+
+GetAllExerciseOnDayIntent my workouts {Day}
+GetAllExerciseOnDayIntent my workouts for {Day}
+GetAllExerciseOnDayIntent my workouts on {Day}
+GetAllExerciseOnDayIntent my {Day} workouts
+GetAllExerciseOnDayIntent all my workouts {Day}
+GetAllExerciseOnDayIntent all workouts {Day}
+GetAllExerciseOnDayIntent all my workouts for {Day}
+GetAllExerciseOnDayIntent all workouts for {Day}
+GetAllExerciseOnDayIntent all my workouts on {Day}
+GetAllExerciseOnDayIntent all workouts on {Day}
+GetAllExerciseOnDayIntent {Day} workouts
+GetAllExerciseOnDayIntent workouts {Day}
+GetAllExerciseOnDayIntent get my workouts for {Day}
+GetAllExerciseOnDayIntent get me my workouts for {Day}
+GetAllExerciseOnDayIntent get all my workouts for {Day}
+GetAllExerciseOnDayIntent get all workouts for {Day}
+GetAllExerciseOnDayIntent get my workouts on {Day}
+GetAllExerciseOnDayIntent get me my workouts on {Day}
+GetAllExerciseOnDayIntent get all my workouts on {Day}
+GetAllExerciseOnDayIntent get all workouts on {Day}
+GetAllExerciseOnDayIntent get my {Day} workouts
+GetAllExerciseOnDayIntent get {Day} workouts
+GetAllExerciseOnDayIntent get all workouts {Day}
+GetAllExerciseOnDayIntent give my workouts for {Day}
+GetAllExerciseOnDayIntent give me my workouts for {Day}
+GetAllExerciseOnDayIntent give all my workouts for {Day}
+GetAllExerciseOnDayIntent give all workouts for {Day}
+GetAllExerciseOnDayIntent give my workouts on {Day}
+GetAllExerciseOnDayIntent give me my workouts on {Day}
+GetAllExerciseOnDayIntent give all my workouts on {Day}
+GetAllExerciseOnDayIntent give all workouts on {Day}
+GetAllExerciseOnDayIntent give my {Day} workouts
+GetAllExerciseOnDayIntent give {Day} workouts
+GetAllExerciseOnDayIntent give all workouts {Day}
+GetAllExerciseOnDayIntent tell my workouts for {Day}
+GetAllExerciseOnDayIntent tell me my workouts for {Day}
+GetAllExerciseOnDayIntent tell all my workouts for {Day}
+GetAllExerciseOnDayIntent tell all workouts for {Day}
+GetAllExerciseOnDayIntent tell my workouts on {Day}
+GetAllExerciseOnDayIntent tell me my workouts on {Day}
+GetAllExerciseOnDayIntent tell all my workouts on {Day}
+GetAllExerciseOnDayIntent tell all workouts on {Day}
+GetAllExerciseOnDayIntent tell my {Day} workouts
+GetAllExerciseOnDayIntent tell {Day} workouts
+GetAllExerciseOnDayIntent tell all workouts {Day}
+GetAllExerciseOnDayIntent find my workouts for {Day}
+GetAllExerciseOnDayIntent find me my workouts for {Day}
+GetAllExerciseOnDayIntent find all my workouts for {Day}
+GetAllExerciseOnDayIntent find all workouts for {Day}
+GetAllExerciseOnDayIntent find my workouts on {Day}
+GetAllExerciseOnDayIntent find me my workouts on {Day}
+GetAllExerciseOnDayIntent find all my workouts on {Day}
+GetAllExerciseOnDayIntent find all workouts on {Day}
+GetAllExerciseOnDayIntent find my {Day} workouts
+GetAllExerciseOnDayIntent find {Day} workouts
+GetAllExerciseOnDayIntent find all workouts {Day}
+GetAllExerciseOnDayIntent my exercises {Day}
+GetAllExerciseOnDayIntent my exercises for {Day}
+GetAllExerciseOnDayIntent my exercises on {Day}
+GetAllExerciseOnDayIntent my {Day} exercises
+GetAllExerciseOnDayIntent all my exercises {Day}
+GetAllExerciseOnDayIntent all exercises {Day}
+GetAllExerciseOnDayIntent all my exercises for {Day}
+GetAllExerciseOnDayIntent all exercises for {Day}
+GetAllExerciseOnDayIntent all my exercises on {Day}
+GetAllExerciseOnDayIntent all exercises on {Day}
+GetAllExerciseOnDayIntent {Day} exercises
+GetAllExerciseOnDayIntent exercises {Day}
+GetAllExerciseOnDayIntent get my exercises for {Day}
+GetAllExerciseOnDayIntent get me my exercises for {Day}
+GetAllExerciseOnDayIntent get all my exercises for {Day}
+GetAllExerciseOnDayIntent get all exercises for {Day}
+GetAllExerciseOnDayIntent get my exercises on {Day}
+GetAllExerciseOnDayIntent get me my exercises on {Day}
+GetAllExerciseOnDayIntent get all my exercises on {Day}
+GetAllExerciseOnDayIntent get all exercises on {Day}
+GetAllExerciseOnDayIntent get my {Day} exercises
+GetAllExerciseOnDayIntent get {Day} exercises
+GetAllExerciseOnDayIntent get all exercises {Day}
+GetAllExerciseOnDayIntent give my exercises for {Day}
+GetAllExerciseOnDayIntent give me my exercises for {Day}
+GetAllExerciseOnDayIntent give all my exercises for {Day}
+GetAllExerciseOnDayIntent give all exercises for {Day}
+GetAllExerciseOnDayIntent give my exercises on {Day}
+GetAllExerciseOnDayIntent give me my exercises on {Day}
+GetAllExerciseOnDayIntent give all my exercises on {Day}
+GetAllExerciseOnDayIntent give all exercises on {Day}
+GetAllExerciseOnDayIntent give my {Day} exercises
+GetAllExerciseOnDayIntent give {Day} exercises
+GetAllExerciseOnDayIntent give all exercises {Day}
+GetAllExerciseOnDayIntent tell my exercises for {Day}
+GetAllExerciseOnDayIntent tell me my exercises for {Day}
+GetAllExerciseOnDayIntent tell all my exercises for {Day}
+GetAllExerciseOnDayIntent tell all exercises for {Day}
+GetAllExerciseOnDayIntent tell my exercises on {Day}
+GetAllExerciseOnDayIntent tell me my exercises on {Day}
+GetAllExerciseOnDayIntent tell all my exercises on {Day}
+GetAllExerciseOnDayIntent tell all exercises on {Day}
+GetAllExerciseOnDayIntent tell my {Day} exercises
+GetAllExerciseOnDayIntent tell {Day} exercises
+GetAllExerciseOnDayIntent tell all exercises {Day}
+GetAllExerciseOnDayIntent find my exercises for {Day}
+GetAllExerciseOnDayIntent find me my exercises for {Day}
+GetAllExerciseOnDayIntent find all my exercises for {Day}
+GetAllExerciseOnDayIntent find all exercises for {Day}
+GetAllExerciseOnDayIntent find my exercises on {Day}
+GetAllExerciseOnDayIntent find me my exercises on {Day}
+GetAllExerciseOnDayIntent find all my exercises on {Day}
+GetAllExerciseOnDayIntent find all exercises on {Day}
+GetAllExerciseOnDayIntent find my {Day} exercises
+GetAllExerciseOnDayIntent find {Day} exercises
+GetAllExerciseOnDayIntent find all exercises {Day}
+
+MyHelpIntent what can you do
+MyHelpIntent what do you do
+MyHelpIntent how can I use you
+MyHelpIntent how can you help me
+MyHelpIntent get help
+
+MyCancelIntent bye
+MyCancelIntent good bye
+MyCancelIntent that's enough for today
+MyCancelIntent enough for today
+MyCancelIntent enough for the day
+MyCancelIntent that's enough for the day
+MyCancelIntent leave me alone
+MyCancelIntent leave me please
+MyCancelIntent please leave me

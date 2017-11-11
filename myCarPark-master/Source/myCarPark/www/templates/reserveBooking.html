@@ -1,0 +1,102 @@
+<ion-view title="Reserve Booking" id="page2" ng-init="choice='58f27fcc734d1d3b89ba801e';viewSlot();" style="background-color:#FBE9E7;">
+  <ion-content padding="true" class="has-header" ng-controller="reserveBookingCtrl" >
+  <div class="container">
+	   
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<label class="textcenter"><h4><b>Parking Slot - Floor 1</b></h4></label>
+		</div>		
+	</div>
+	
+	<div class="row zeropadding">
+		<div class="col-md-12 col-sm-12 col-xs-12 zeropadding">
+			<label class = "item item-input item-select" style="background-color:#f2f2f2">
+			   <div class = "input-label">
+				  Time
+			   </div>	
+			   <div>			   
+			   <select  ng-model="choice"  ng-change="viewSlot()">			   
+				  <option  value="58f27fcc734d1d3b89ba801e" ng-selected="selected">9:00 am - 12:00 pm</option>
+				  <option  value="58f281aa734d1d3b89ba805d">12:00 pm - 3:00 pm </option>
+				  <option  value="58f281c3734d1d3b89ba8068">3:00 pm - 6:00 pm</option>
+			   </select>
+			   </div>
+			</label>
+		</div>		
+	</div>
+
+	<!--Status table of parking slot-->
+	<div class="spacer" style="height: 10px;"></div>
+	<div class="row zeropadding">
+			<div class="col-md-offset-0 col-md-12 col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 zeropadding">
+				<table class="table-bordered textcenter" style="">
+					<tr>
+						<td style=" border:2px solid #ff5722;background-color:#fdd835;"><b>Available Slots</b></td>
+						<td style="background-color:#fdd835;"><b>Booked Slots<b></td>
+					</tr>
+					<tr>
+						<td style=" border:2px solid #ff5722;background-color:#ffeb3b;">{{x}}</td>
+						<td style="background-color:#ffeb3b;">{{8-x}}</td>
+					</tr>
+				</table>				
+			</div>			
+	</div>
+	   
+	<!--Parking floor map design-->
+	<div class="spacer" style="height: 20px;"></div>
+	<div class="container-fluid borderEdge gray">
+		<div class="spacer" style="height: 20px;"></div>
+		<div class="row slotRow borderEdge">
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A0" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A0')">A0
+				<label class="borderEdge textcenter typeCar">S</label>
+				</label>				
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A1" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A1')">A1
+				<label class="borderEdge textcenter typeCar">S</label>
+				</label>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A2" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A2')">A2
+				<label class="borderEdge textcenter typeCar">C</label>
+				</label>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A3" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A3')">A3
+				<label class="borderEdge textcenter typeCar">C</label>
+				</label>
+			</div>
+		</div>
+		<div class="spacer" style="height: 30px;border-bottom: thick dotted #FFD700;"></div>
+		<div class="spacer" style="height: 30px;"></div>
+		<div class="row slotRow borderEdge">
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A4" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A4')">A4
+				<label class="borderEdge textcenter typeCar">S</label>
+				</label>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A5" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A5')">A5
+				<label class="borderEdge textcenter typeCar">C</label>
+				</label>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A6" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A6')">A6
+				<label class="borderEdge textcenter typeCar">S</label>
+				</label>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<label id="A7" class="borderEdge textcenter slot" style="background-color: green;" ng-click="bookSlot('A7')">A7
+				<label class="borderEdge textcenter typeCar">C</label>
+				</label>
+			</div>
+		</div>
+		<div class="spacer" style="height: 20px;"></div>
+	</div>
+	<div class="spacer" style="height: 20px;"></div>
+	
+	<a class="button button-assertive  button-block" ng-click="cancelSlot()">Cancel Booking</a>
+  </div>
+  </ion-content>
+</ion-view>

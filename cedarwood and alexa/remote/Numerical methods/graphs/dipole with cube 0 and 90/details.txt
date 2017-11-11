@@ -1,0 +1,5 @@
+changing U perametre of cube can change the distance between center of dipole and cube and eventually effect the radiation 
+
+pattern as it is falling out of range. Radiation pattern with respect to (lambda/2,lambda) distance from center of 
+
+cube to dipole are taken. Initially, the dipole radiation pattern is set to h=lambda/2.
